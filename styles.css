@@ -1,0 +1,22 @@
+@import 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css';
+.home-button {
+    display: inline-block;
+    width: 20px;
+    height: auto;
+    font-size: 0.5rem; /* Adjust the font size to fit the button */
+    text-overflow: clip;
+    white-space: nowrap;
+    background-color: #4a5568;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #2d3748;
+  }
+  
